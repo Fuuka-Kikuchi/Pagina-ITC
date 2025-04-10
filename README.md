@@ -1,5 +1,5 @@
 Apartados para cada Equipo, Se creo la carpeta de components  y Pages, <br>
-En pages 
+En pages \n
 sera donde agreguen los componentes creados por los  integrantes de su equipo
 Home.tsx --- >inicio 
 Instituto.tsx ---->Conocenos
