@@ -1,54 +1,22 @@
-# React + TypeScript + Vite
+Apartados para cada Equipo, Se creo la carpeta de components  y Pages, <br>
+En pages <br>
+sera donde agreguen los componentes creados por los  integrantes de su equipo<br>
+Home.tsx --- >inicio <br>
+Instituto.tsx ---->Conocenos <br>
+Ofertas.tsx -----> Oferta educativa <br> 
+Carrera.tsx ----->  carrera <br>
+Se creo la carpeta de component y dentro la carpeta de cada area para que creen las carpertas necesarias para la elaboracion de su apartado<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rutas para ver sus diseño <br>
+las rutas de home /  & /inicio<br>
+ruta de conocenos /quienes-somos<br>
+ruta de oferta educativa /ofertas-academica<br>
+ruta de carrera /carrera<br>
 
-Currently, two official plugins are available:
+Favor de provar sus codigos antes de subirlos al repo <br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![image](https://github.com/user-attachments/assets/84756bf0-12bc-4525-a491-85c94d5def29)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
