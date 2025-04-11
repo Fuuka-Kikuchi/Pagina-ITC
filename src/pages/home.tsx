@@ -64,7 +64,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="page">
-      {/* Primer encabezado */}
+      {/* Primer encggabezado */}
       <header className="header1">
         <div className="header1-container">
           <div className="logo-container">
