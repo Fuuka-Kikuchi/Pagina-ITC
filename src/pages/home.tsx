@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import './Home.css';
+import '../component/home/Home.css';
 
 // Importar imágenes locales
-import logo from './logos/gobmx_logo.png';
-import headerImage1 from './logos/gobierno.png';
-import headerImage2 from './logos/nacional.png';
-import headerImage3 from './logos/logotec.jpg';
-import carouselImage1 from './banner/1.jpeg';
-import carouselImage2 from './banner/2.jpeg';
-import carouselImage3 from './banner/3.jpg';
+import logo from '../component/home/logos/gobmx_logo.png';
+import headerImage1 from '../component/home/logos/gobierno.png';
+import headerImage2 from '../component/home/logos/nacional.png';
+import headerImage3 from '../component/home/logos/logotec.jpg';
+import carouselImage1 from '../component/home/banner/1.jpeg';
+import carouselImage2 from '../component/home/banner/2.jpeg';
+import carouselImage3 from '../component/home/banner/3.jpg';
+
 
 interface HeaderImage {
   id: number;
