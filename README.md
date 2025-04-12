@@ -14,6 +14,7 @@ ruta de oferta educativa /ofertas-academica<br>
 ruta de carrera /carrera<br>
 
 Favor de provar sus codigos antes de subirlos al repo <br>
+Cualquier Cambiode diseño para el banner o futer avisar a @Aby<br>
 
 
 
